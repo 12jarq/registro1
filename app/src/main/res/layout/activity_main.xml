@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.alvaro1.myapplication.MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:text="Registro"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textSize="25sp"/>
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+                 android:padding="30dp"
+
+                 android:orientation="horizontal"
+                 android:layout_weight="0">
+
+
+                 <ImageView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/andy"
+                     android:layout_marginRight="10dp"
+
+
+
+                />
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+
+
+                     android:orientation="vertical">
+
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:paddingBottom="10sp"
+                         android:paddingTop="15dp"
+                         android:layout_marginTop="10dp"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:gravity="center_horizontal"
+                         android:textSize="15sp"
+                         android:text="ROJAS QUISPE"/>
+
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:paddingTop="1dp"
+                         android:layout_marginTop="1dp"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:gravity="center_horizontal"
+                         android:textSize="15sp"
+                         android:paddingBottom="11sp"
+
+
+                         android:text="JOSE ANTONIO"
+                         android:id="@+id/textView2" />
+
+
+                 </LinearLayout>
+             </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:paddingBottom="10sp"
+                android:text="UMSA"
+
+                />
+
+            <TextView
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:paddingBottom="10sp"
+                android:text="C.I. 12761177"
+
+                android:id="@+id/textView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="0dp"
+                    android:paddingBottom="10sp"
+                    android:paddingTop="15dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"
+                    android:text="LA PAZ"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    android:paddingTop="15dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingBottom="10sp"
+                    android:gravity="center_horizontal"
+                    android:textSize="15sp"
+                    android:text="BOLIVIA"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:paddingBottom="10sp"
+                android:textStyle="bold"
+                android:text="2017"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
